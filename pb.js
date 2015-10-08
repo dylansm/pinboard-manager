@@ -1,11 +1,11 @@
 var Pinboard = require('node-pinboard');
-var api_token = 'username:token';
+var api_token = process.env.PINBOARD_API_KEY;
 
 var pb = new Pinboard(api_token);
 
 //var options = {
   //old: 'Guitar',
-  //new: 'guitar'
+  //new: 'zuitar'
 //}
 
 //pb.renameTag(options, function(res) {
