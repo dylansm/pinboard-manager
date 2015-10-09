@@ -1,3 +1,3 @@
 'use strict'
 
-module.exports = require('./lib/manager')
+module.exports = require('./lib/pinboard_manager')
