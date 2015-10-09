@@ -4,11 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "test/test.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-pinboard": "^0.1.1"
+    "node-pinboard": "^0.1.1",
+    "prompt": "^0.2.14"
+  },
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3"
   }
 }
